@@ -3,39 +3,40 @@ Resampling
 > Which model had the best balanced accuracy score?
 
 The Naive resampling method was the accuracy
-Accuracy Score before resampling: 0.5048920291935648
-Accuracy Score centroid undersampling: 0.5376494063110708
-Accuracy Score SMOTE: 0.6340483147940612
-Accuracy Score combo: 0.6456954658281544
-Accuracy Score naive oversampling: 0.6513272907038131
+Accuracy Score RF sample: 0.5197727472700497
+Accuracy Score RF combo: 0.7169743167020163
+Accuracy Score RF under: 0.7206510086228455
+Accuracy Score RF SMOTE: 0.7232784989209866
+Accuracy Score RF naive over: 0.7273520061313896
 
 
 > Which model had the best recall score?
 
-The SMOTEEN and no resampling methods gave the best recall score
-Recall Score centroid undersampling: 0.39
-Recall Score naive oversampling: 0.6
-Recall Score SMOTE: 0.62
+The SMOTE and naive resampling methods gave the best recall score
+Recall Score centroid undersampling: 0.67
+Recall Score combo: 0.74
+Recall Score naive oversampling: 0.76
+Recall Score SMOTE: 0.76
 Recall Score  before resampling: .99
-Recall Score combo: 0.99
+
 
 >
 > Which model had the best geometric mean score?
 
-The SMOTEEN method gave the best geometic mean
-Geometric Mean before resampling: 0.10
-Geometric Mean SMOTE: 0.4
-Geometric Mean naive oversampling: 0.42
-Geometric Mean centroid undersampling: .52
-Geometric Mean combo: 0.64
+The naive resampling method gave the best geometic mean
+Geometric Mean before resampling: 0.20
+Geometric Mean SMOTE: 0.72
+Geometric Mean centroid undersampling: .72
+Geometric Mean combo: 0.72
+Geometric Mean naive oversampling: 0.73
 
 
 Ensemble
 > Which model had the best balanced accuracy score?
 
 The adaboost model had the best accuracy
-Accuracy Score Random forest: 0.6830513851198029
-Accuracy Score adaBoost: 0.9213509780585168
+Accuracy Score Random Forest: 0.6830513851198029
+Accuracy Score Boost: 0.9213509780585168
 >
 > Which model had the best recall score?
 
