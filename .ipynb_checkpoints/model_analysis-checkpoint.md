@@ -2,7 +2,8 @@
 Resampling
 > Which model had the best balanced accuracy score?
 
-The Naive resampling method was the accuracy
+The Naive resampling method was the accuracy.
+average balanced accuracy scores:
 Accuracy Score RF sample: 0.5197727472700497
 Accuracy Score RF combo: 0.7169743167020163
 Accuracy Score RF under: 0.7206510086228455
@@ -12,7 +13,8 @@ Accuracy Score RF naive over: 0.7273520061313896
 
 > Which model had the best recall score?
 
-The SMOTE and naive resampling methods gave the best recall score
+The SMOTE and naive resampling methods gave the best recall score.
+Average Recall scores:
 Recall Score centroid undersampling: 0.67
 Recall Score combo: 0.74
 Recall Score naive oversampling: 0.76
@@ -24,6 +26,7 @@ Recall Score  before resampling: .99
 > Which model had the best geometric mean score?
 
 The naive resampling method gave the best geometic mean
+Average Geometric Means:
 Geometric Mean before resampling: 0.20
 Geometric Mean SMOTE: 0.72
 Geometric Mean centroid undersampling: .72
@@ -35,18 +38,21 @@ Ensemble
 > Which model had the best balanced accuracy score?
 
 The adaboost model had the best accuracy
+Average Balanced Accuracy scores:
 Accuracy Score Random Forest: 0.6830513851198029
 Accuracy Score Boost: 0.9213509780585168
 >
 > Which model had the best recall score?
 
 the random forest had the best recall
+Average Recall Scores:
 Recall score Random forest: 1.0
 Recall score adaBoost: 0.91
 
 > Which model had the best geometric mean score?
 
-The adaboost model had the best accuracy
+The adaboost model had the best Geometric mean
+Average Geometric Mean
 Geographic Mean Random forest: 0.61
 Geographic Mean adaBoost: 0.92
 
